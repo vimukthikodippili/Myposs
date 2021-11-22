@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="430.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <ImageView fx:id="imgLG1" fitHeight="355.0" fitWidth="571.0" layoutY="75.0" opacity="0.65" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../Asset/D8jTOx.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLG2" fitHeight="49.0" fitWidth="32.0" layoutX="116.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Asset/login-rounded-up.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="75.0" prefWidth="571.0" style="-fx-background-color: black;">
+         <children>
+            <Label alignment="CENTER" layoutX="127.0" layoutY="15.0" prefHeight="46.0" prefWidth="271.0" text="majestic cinema" textFill="#d04212">
+               <font>
+                  <Font name="Bookman Old Style Bold Italic" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="7.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="txtUsNm" layoutX="119.0" layoutY="91.0" prefHeight="25.0" prefWidth="194.0" promptText="use name" />
+      <Button fx:id="btnLogin" layoutX="148.0" layoutY="241.0" mnemonicParsing="false" onAction="#btnLogin_OnAction" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: green;" text=" Login" />
+      <PasswordField fx:id="txtPwd" layoutX="128.0" layoutY="134.0" prefHeight="25.0" prefWidth="194.0" promptText="password" />
+   </children>
+</AnchorPane>

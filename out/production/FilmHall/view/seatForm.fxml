@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="586.0" prefWidth="1043.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SeatFormController">
+   <children>
+      <Accordion layoutX="79.0" layoutY="67.0" />
+      <Canvas height="47.0" layoutX="32.0" layoutY="25.0" width="657.0" />
+      <AnchorPane layoutY="1.0" prefHeight="131.0" prefWidth="721.0">
+         <children>
+            <Label layoutX="90.0" layoutY="9.0" prefHeight="47.0" prefWidth="417.0" text="Screen" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="184.0" fitWidth="721.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img1" fitHeight="219.0" fitWidth="729.0" nodeOrientation="INHERIT" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../Asset/cinema-movie-theater-with-blank-screen-red-seat_34230-296.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="190.0" prefHeight="396.0" prefWidth="728.0" style="-fx-background-color: #2d3436;">
+         <children>
+            <Button fx:id="btnS1" layoutX="9.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS1OnAction" text="S1" />
+            <Button fx:id="btnS2" layoutX="61.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS2OnAction" text="s2" />
+            <Button fx:id="btnS3" layoutX="119.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS3OnAction" text="s3" />
+            <Button fx:id="btnS4" layoutX="172.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS4OnAction" text="s4" />
+            <Button fx:id="btnS5" layoutX="221.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS5OnAction" text="s5" />
+            <Button fx:id="btnS8" layoutX="443.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS8OnAction" text="s8" />
+            <Button fx:id="btnS9" layoutX="495.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS9OnAction" text="s9" />
+            <Button fx:id="btnS10" layoutX="554.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS10OnAction" text="s10" />
+            <Button fx:id="btnS11" layoutX="618.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS11OnAction" text="s11" />
+            <Button fx:id="btnS13" layoutX="9.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS13OnAction" text="s13" />
+            <Button fx:id="btnS14" layoutX="64.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS13OnAction" text="s14" />
+            <Button fx:id="btnS15" layoutX="116.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS15OnAction" text="s15" />
+            <Button fx:id="btnS16" layoutX="169.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS16OnAction" text="s16" />
+            <Button fx:id="btnS17" layoutX="218.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS17OnAction" text="s17" />
+            <Button fx:id="btnS20" layoutX="440.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS20OnAction" prefHeight="25.0" prefWidth="35.0" text="s20" />
+            <Button fx:id="btnS21" layoutX="492.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS21OnAction" text="s21" />
+            <Button fx:id="btnS22" layoutX="551.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS22OnAction" text="s22" />
+            <Button fx:id="btnS23" layoutX="615.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS23OnAction" text="s23" />
+            <Button fx:id="btnS25" layoutX="9.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS25OnAction" text="s25" />
+            <Button fx:id="btnS26" layoutX="58.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS26OnAction" text="s26" />
+            <Button fx:id="btnS27" layoutX="116.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS27OnAction" text="s27" />
+            <Button fx:id="btnS28" layoutX="169.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS28OnAction" text="s28" />
+            <Button fx:id="btnS29" layoutX="219.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS29OnAction" text="s29" />
+            <Button fx:id="btnS30" layoutX="270.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS30OnAction" text="s30" />
+            <Button fx:id="btnS31" layoutX="396.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS31OnAction" text="s31" />
+            <Button fx:id="btnS32" layoutX="458.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS32OnAction" text="s32" />
+            <Button fx:id="btnS33" layoutX="518.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS33OnAction" text="s33" />
+            <Button fx:id="btnS34" layoutX="572.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS34OnAction" text="s34" />
+            <Button fx:id="btnS12" layoutX="680.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS12OnAction" text="12" />
+            <Button fx:id="btnS24" layoutX="680.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS24OnAction" text="s24" />
+            <Button fx:id="btnS37" layoutX="6.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS37OnAction" text="s37" />
+            <Button fx:id="btnS38" layoutX="58.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS38OnAction" text="s38" />
+            <Button fx:id="btnS39" layoutX="116.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS39OnAction" text="s39" />
+            <Button fx:id="btnS40" layoutX="169.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS40OnAction" text="s40" />
+            <Button fx:id="btnS41" layoutX="219.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS41OnAction" text="s41" />
+            <Button fx:id="btnS42" layoutX="270.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS42OnAction" text="s42" />
+            <Button fx:id="btnS44" layoutX="457.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS44OnAction" text="s44" />
+            <Button fx:id="btnS45" layoutX="518.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS45OnAction" text="s45" />
+            <Button fx:id="btnS46" layoutX="572.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS46OnAction" text="s46" />
+            <Button fx:id="btnS47" layoutX="625.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS47OnAction" text="s47" />
+            <Button fx:id="btnS49" layoutX="9.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS49OnAction" text="s49" />
+            <Button fx:id="btnS50" layoutX="64.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS50OnAction" text="s50" />
+            <Button fx:id="btnS51" layoutX="119.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS51OnAction" text="s51" />
+            <Button fx:id="btnS52" layoutX="169.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS52OnAction" text="s52" />
+            <Button fx:id="btnS53" layoutX="219.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS53OnAction" text="s53" />
+            <Button fx:id="btnS54" layoutX="270.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS54OnAction" text="s54" />
+            <Button fx:id="btnS55" layoutX="391.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS55OnAction" text="s55" />
+            <Button fx:id="btnS56" layoutX="448.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS56OnAction" text="s56" />
+            <Button fx:id="btnS57" layoutX="510.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS57OnAction" text="s57" />
+            <Button fx:id="btnS58" layoutX="563.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS58OnAction" text="s58" />
+            <Button fx:id="btnS61" layoutX="9.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS61OnAction" text="s61" />
+            <Button fx:id="btnS62" layoutX="64.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS62OnAction" text="s62" />
+            <Button fx:id="btnS63" layoutX="116.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS63OnAction" text="s63" />
+            <Button fx:id="btnS64" layoutX="169.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS64OnAction" text="s64" />
+            <Button fx:id="btnS65" layoutX="219.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS65OnAction" text="s65" />
+            <Button fx:id="btnS66" layoutX="270.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS66OnAction" text="s66" />
+            <Button fx:id="btnS67" layoutX="391.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS67OnAction" text="s67" />
+            <Button fx:id="btnS68" layoutX="448.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS68OnAction" text="s68" />
+            <Button fx:id="btnS69" layoutX="510.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS69OnAction" text="s69" />
+            <Button fx:id="btnS70" layoutX="569.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS70OnAction" text="s70" />
+            <Button fx:id="btnS6" layoutX="269.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS6OnActon" text="s6" />
+            <Button fx:id="btnS18" layoutX="269.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS18OnAction" text="s18" />
+            <Button fx:id="btnS7" layoutX="394.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnS7OnAction" text="s7" />
+            <Button fx:id="btnS19" layoutX="391.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnS19OnAtion" text="s19" />
+            <Button fx:id="btnS35" layoutX="633.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS35OnAction" text="s35" />
+            <Button fx:id="btnS36" layoutX="684.0" layoutY="159.0" mnemonicParsing="false" onAction="#btnS36OnAction" text="s36" />
+            <Button fx:id="btnS43" layoutX="396.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS43OnAction" text="s43" />
+            <Button fx:id="btnS48" layoutX="680.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnS48OnAction" text="s48" />
+            <Button fx:id="btnS59" layoutX="618.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS59OnAction" text="s59" />
+            <Button fx:id="btnS60" layoutX="677.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnS60OnAction" text="s60" />
+            <Button fx:id="btnS71" layoutX="625.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS71OnAction" text="s71" />
+            <Button fx:id="btnS72" layoutX="677.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnS72OnAction" text="s72" />
+            <Button fx:id="btnOk" layoutX="283.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnOkOnAction" prefHeight="25.0" prefWidth="123.0" text="ok" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="586.0" fitWidth="316.0" layoutX="729.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Asset/83f9d14a1a91c4b5252825e19f78e29f.jpg" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="cmbTimeSet" layoutX="767.0" layoutY="100.0" onAction="#cmbOnAction" prefHeight="25.0" prefWidth="232.0" promptText="time" />
+      <TextField fx:id="txtCusID" layoutX="767.0" layoutY="143.0" prefHeight="25.0" prefWidth="232.0" promptText="cust ID" />
+      <TextField fx:id="txtCusName" layoutX="765.0" layoutY="193.0" prefHeight="25.0" prefWidth="232.0" promptText="customer name" />
+      <TextField fx:id="txtNIC" layoutX="767.0" layoutY="242.0" prefHeight="25.0" prefWidth="232.0" promptText="nic" />
+      <Button layoutX="793.0" layoutY="289.0" mnemonicParsing="false" onMousePressed="#purchaseTIckets" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #6ab04c;" text="purchace" />
+      <TextField fx:id="txtMovieID" layoutX="767.0" layoutY="57.0" prefHeight="25.0" prefWidth="63.0" promptText="Movie ID" />
+      <TextField fx:id="txtMovieName" layoutX="836.0" layoutY="57.0" prefHeight="25.0" prefWidth="162.0" promptText="Movie Name" />
+      <TextField fx:id="txtDate" editable="false" layoutX="805.0" layoutY="13.0" prefHeight="25.0" prefWidth="162.0" promptText="Date" />
+   </children>
+</AnchorPane>

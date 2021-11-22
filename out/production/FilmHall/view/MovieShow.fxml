@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="txtMvId" prefHeight="544.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovieShowController">
+   <children>
+      <AnchorPane prefHeight="145.0" prefWidth="735.0" style="-fx-background-color: skyblue;">
+         <children>
+            <Label layoutX="224.0" layoutY="34.0" prefHeight="39.0" prefWidth="212.0" text="movie Show ">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="txtMvIdd" layoutX="14.0" layoutY="163.0" promptText="movie ID" />
+      <TextField fx:id="txtShwID" layoutX="346.0" layoutY="163.0" promptText="showID" />
+      <ComboBox fx:id="cmbBxMvTm" layoutX="179.0" layoutY="163.0" prefWidth="150.0" promptText="movie time" />
+      <Button fx:id="btnMSAdd" layoutX="14.0" layoutY="260.0" mnemonicParsing="false" onAction="#btnMSAddOnAction" prefHeight="25.0" prefWidth="108.0" text="add" />
+      <Button fx:id="btnMSDlt" layoutX="139.0" layoutY="260.0" mnemonicParsing="false" onAction="#btnMSDltOnAction" prefHeight="25.0" prefWidth="108.0" text="delete" />
+      <Button fx:id="btnMSUpdt" layoutX="271.0" layoutY="260.0" mnemonicParsing="false" onAction="#btnMSUpdtOnAction" prefHeight="25.0" prefWidth="149.0" text="update" />
+      <TableView fx:id="tblMovieShow" layoutX="4.0" layoutY="299.0" prefHeight="529.0" prefWidth="548.0">
+        <columns>
+          <TableColumn fx:id="tblMovieID" prefWidth="187.0" text="movie ID" />
+          <TableColumn fx:id="tblShowID" prefWidth="166.0" text="show ID" />
+            <TableColumn fx:id="tblPrice" prefWidth="192.0" text="time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

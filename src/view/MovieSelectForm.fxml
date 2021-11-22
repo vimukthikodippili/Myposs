@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Root" prefHeight="545.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovieSelectController">
+   <children>
+      <ImageView fx:id="imgMvslc" fitHeight="545.0" fitWidth="699.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../Asset/localization-film.jpg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="55.0" layoutY="146.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea layoutX="326.0" layoutY="146.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnBK2" layoutX="70.0" layoutY="404.0" mnemonicParsing="false" onAction="#btnBK2OnAction" prefHeight="25.0" prefWidth="154.0" style="-fx-background-color: red;" text="book now" />
+      <Button fx:id="btnBK1" layoutX="339.0" layoutY="404.0" mnemonicParsing="false" onAction="#btnBK1OnAction" prefHeight="25.0" prefWidth="154.0" style="-fx-background-color: red;" text="book now" />
+      <ImageView fx:id="imgFlm1" fitHeight="200.0" fitWidth="200.0" layoutX="55.0" layoutY="148.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Asset/a1f7213fbb4fc27f91a907b81cb253ec.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
